@@ -1,6 +1,6 @@
 DIR=$(HOME)/dotfiles
 
-all: brew symlinks npm configure-zsh configure-prezto osx
+all: brew symlinks configure-zsh configure-prezto npm osx
 
 install-nvm:
 	@curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
