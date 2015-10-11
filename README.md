@@ -1,5 +1,5 @@
 ```
-git clone --recursive https://github.com/michaeljacobdavis/atom-dotfiles.git
+git clone --recursive https://github.com/michaeljacobdavis/atom-dotfiles.git dotfiles
 make
 ```
 
