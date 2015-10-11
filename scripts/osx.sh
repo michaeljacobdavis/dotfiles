@@ -83,3 +83,6 @@ defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 
 # Auto-play videos when opened with QuickTime Player
 defaults write com.apple.QuickTimePlayerX MGPlayMovieOnOpen 1
+
+# Enable text copying from Quick Look
+defaults write com.apple.finder QLEnableTextSelection -bool YES
