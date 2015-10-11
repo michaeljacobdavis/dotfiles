@@ -16,7 +16,7 @@ npm: install-nvm
 	@npm install -g node-info
 
 install-homebrew:
-	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	ruby -e "$$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	@brew update
 
 brew: install-homebrew
