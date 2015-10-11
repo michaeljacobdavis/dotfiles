@@ -10,12 +10,12 @@ install-nvm:
 
 npm: install-nvm
 	@source ~/.nvm/nvm.sh
-	@npm install -g coffee-script
-	@npm install -g eslint
-	@npm install -g node-inspector
-	@npm install -g node-static
-	@npm install -g todo
-	@npm install -g node-info
+	npm install -g coffee-script
+	npm install -g eslint
+	npm install -g node-inspector
+	npm install -g node-static
+	npm install -g todo
+	npm install -g node-info
 
 install-homebrew:
 	ruby -e "$$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
