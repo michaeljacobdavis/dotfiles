@@ -5,17 +5,11 @@ all: brew symlinks configure-zsh configure-prezto npm osx
 install-nvm:
 	@curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
 	@source ~/.nvm/nvm.sh
-	@nvm install stable
-	@nvm alias default stable
+	@source ~/.nvm/nvm.sh && nvm install stable
+	@source ~/.nvm/nvm.sh && nvm alias default stable
 
 npm: install-nvm
-	@source ~/.nvm/nvm.sh
-	npm install -g coffee-script
-	npm install -g eslint
-	npm install -g node-inspector
-	npm install -g node-static
-	npm install -g todo
-	npm install -g node-info
+	@source ~/.nvm/nvm.sh && npm install -g coffee-script eslint node-inspector node-static todo node-info
 
 install-homebrew:
 	ruby -e "$$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
