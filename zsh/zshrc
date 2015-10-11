@@ -3,7 +3,7 @@ DIR=$HOME/dotfiles
 source $DIR/zsh/prezto/runcoms/zshrc
 source $DIR/zsh/aliases.zsh
 source $DIR/zsh/colors.zsh
-source $DIR/zsh/custom_prompt_path.zsh
+source $DIR/zsh/prompt.zsh
 source $DIR/zsh/env.zsh
 source $DIR/zsh/git.zsh
 source $DIR/zsh/noglob.zsh
