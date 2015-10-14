@@ -10,3 +10,4 @@ make
 - [size up](http://www.irradiatedsoftware.com/sizeup/)
 - [record it](http://recordit.co/latest)
 - [kaleidoscope](http://www.kaleidoscopeapp.com/)
+- [mac2imgur](https://github.com/mileswd/mac2imgur)
