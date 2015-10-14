@@ -11,3 +11,4 @@ make
 - [record it](http://recordit.co/latest)
 - [kaleidoscope](http://www.kaleidoscopeapp.com/)
 - [mac2imgur](https://github.com/mileswd/mac2imgur)
+- [dropbox](https://www.dropbox.com/downloading?os=mac)
