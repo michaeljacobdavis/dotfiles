@@ -88,6 +88,9 @@ defaults write com.apple.finder EmptyTrashSecurely -bool true
 # Desktop
 # =======
 
+# Hide everything on desktop
+#defaults write com.apple.finder CreateDesktop -bool false
+
 # Show icons for hard drives, servers, and removable media on the desktop
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
