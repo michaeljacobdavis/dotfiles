@@ -13,3 +13,7 @@ export TODO_FORMAT=simple
 
 # Personal bin
 export PATH=$HOME/bin:$PATH
+
+# Source from current dir node_modules
+export PATH="./node_modules/.bin:$PATH"
+
