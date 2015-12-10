@@ -14,6 +14,12 @@ export TODO_FORMAT=simple
 # Personal bin
 export PATH=$HOME/bin:$PATH
 
+# Android Emulator
+export ANDROID_HOME=/usr/local/opt/android-sdk
+
 # Source from current dir node_modules
 export PATH="./node_modules/.bin:$PATH"
 
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
