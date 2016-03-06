@@ -117,3 +117,6 @@ alias runningon="netstat -an | grep 8000"
 
 # Copy ssh key
 alias copy-ssh="pbcopy < ~/.ssh/id_rsa.pub"
+
+# Desk
+alias d.='desk .'

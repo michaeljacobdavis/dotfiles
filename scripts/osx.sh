@@ -61,6 +61,9 @@ defaults write com.apple.dock expose-animation-duration -float 0.1
 # Finder
 # ======
 
+# Show hidden files
+defaults write com.apple.finder AppleShowAllFiles YES
+
 # Use current directory as default search scope in Finder
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 

@@ -7,6 +7,9 @@ unsetopt correct_all
 # Java Env
 eval "$(jenv init -)"
 
+# rbenv
+eval "$(rbenv init -)"
+
 # Todo
 export TODO_DB_PATH=~/Dropbox/Apps/Todo/todo.json
 export TODO_FORMAT=simple

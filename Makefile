@@ -1,6 +1,6 @@
 DIR=$(HOME)/dotfiles
 
-all: brew symlinks configure-zsh configure-prezto npm osx
+all: brew symlinks configure-zsh configure-prezto configure-desk npm osx
 
 install-nvm:
 	@curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
@@ -18,11 +18,15 @@ install-homebrew:
 brew: install-homebrew
 	@brew install jenv
 	@brew install shellcheck
+	@brew install desk
 	@brew install zsh
 	@brew install git
 	@brew install the_silver_searcher
 	@brew install caskroom/cask/brew-cask
 	@brew cask install atom
+
+configure-desk:
+	@rm -rf ~/.desk && ln -s ~/Dropbox/Apps/Desk ~/.desk
 
 configure-zsh:
 	@echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells > /dev/null
