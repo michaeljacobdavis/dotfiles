@@ -12,3 +12,4 @@ make
 - [kaleidoscope](http://www.kaleidoscopeapp.com/)
 - [mac2imgur](https://github.com/mileswd/mac2imgur)
 - [dropbox](https://www.dropbox.com/downloading?os=mac)
+- [plug](https://www.plugformac.com/)
