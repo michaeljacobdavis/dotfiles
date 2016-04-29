@@ -218,4 +218,4 @@ defaults write com.apple.ActivityMonitor SortDirection -int 0
 # Sketch
 # =======
 
-defaults write -app ‘sketch’ ApplePersistence -bool no
+defaults write -app Sketch ApplePersistence -bool no
