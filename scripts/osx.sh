@@ -214,3 +214,8 @@ defaults write com.apple.ActivityMonitor SortDirection -int 0
 
 # Disable dropbox context menu
 /Applications/Dropbox.app/Contents/MacOS/Dropbox --move-to-dropbox=False
+
+# Sketch
+# =======
+
+defaults write -app ‘sketch’ ApplePersistence -bool no
