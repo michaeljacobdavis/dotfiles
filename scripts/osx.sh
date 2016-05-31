@@ -39,6 +39,9 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 12
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 0.02
 
+# Disable autocorrect
+defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false
+
 # Trackpad
 # ========
 defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
