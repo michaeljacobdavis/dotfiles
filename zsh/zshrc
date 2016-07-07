@@ -18,3 +18,4 @@ export NVM_DIR="/Users/michael/.nvm"
 [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
 # Hook for desk activation
 [ -n "$DESK_ENV" ] && source "$DESK_ENV" || true
+[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn

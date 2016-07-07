@@ -23,6 +23,9 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 # Source from current dir node_modules
 export PATH="./node_modules/.bin:$PATH"
 
+# Postgres Bindings
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
