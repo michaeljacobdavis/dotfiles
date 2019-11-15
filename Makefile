@@ -9,24 +9,15 @@ install-nvm:
 	@source ~/.nvm/nvm.sh && nvm alias default stable
 
 npm: install-nvm
-	@source ~/.nvm/nvm.sh && npm install -g coffee-script eslint node-inspector node-static todo node-info
+	@source ~/.nvm/nvm.sh && npm install -g node-static todo
 
 install-homebrew:
 	ruby -e "$$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	@brew update
 
 brew: install-homebrew
-	@brew install jenv
-	@brew install shellcheck
-	@brew install desk
 	@brew install zsh
 	@brew install git
-	@brew install the_silver_searcher
-	@brew install caskroom/cask/brew-cask
-	@brew cask install atom
-
-configure-desk:
-	@rm -rf ~/.desk && ln -s ~/Dropbox/Apps/Desk ~/.desk
 
 configure-zsh:
 	@echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells > /dev/null
@@ -45,7 +36,6 @@ symlinks:
 	@ln -nsf $(DIR)/git/gitconfig ~/.gitconfig
 	@ln -nsf $(DIR)/git/gitignore ~/.gitignore_global
 	@ln -nsf $(DIR)/bin ~/.bin
-	@ln -nsf ~/Dropbox/Apps/Atom ~/.atom
 
 osx:
 	@bash scripts/osx.sh
