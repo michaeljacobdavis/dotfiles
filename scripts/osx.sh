@@ -23,10 +23,6 @@ defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.5
 # Never go into computer sleep mode
 sudo systemsetup -setcomputersleep Off > /dev/null
 
-# Require password immediately after sleep or screen saver begins
-defaults write com.apple.screensaver askForPassword -int 1
-defaults write com.apple.screensaver askForPasswordDelay -int 0
-
 # Keyboard
 # ========
 
@@ -217,8 +213,3 @@ defaults write com.apple.ActivityMonitor SortDirection -int 0
 
 # Disable dropbox context menu
 /Applications/Dropbox.app/Contents/MacOS/Dropbox --move-to-dropbox=False
-
-# Sketch
-# =======
-
-defaults write -app Sketch ApplePersistence -bool no
