@@ -212,4 +212,4 @@ defaults write com.apple.ActivityMonitor SortDirection -int 0
 # =======
 
 # Disable dropbox context menu
-/Applications/Dropbox.app/Contents/MacOS/Dropbox --move-to-dropbox=False
+#/Applications/Dropbox.app/Contents/MacOS/Dropbox --move-to-dropbox=False
