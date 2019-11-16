@@ -29,14 +29,8 @@ sudo systemsetup -setcomputersleep Off > /dev/null
 # Enable character repeat on keydown
 defaults write -g ApplePressAndHoldEnabled -bool false
 
-# Set a shorter Delay until key repeat
-defaults write NSGlobalDomain InitialKeyRepeat -int 12
-
-# Set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 0.02
-
-# Disable autocorrect
-defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false
+defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
+defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
 
 # Trackpad
 # ========
